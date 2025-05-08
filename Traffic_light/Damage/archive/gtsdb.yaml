@@ -1,0 +1,50 @@
+path: ./GTSDB_YOLO  # path to dataset folder containing 'images' and 'labels'
+train: images/train
+val: images/train  # using train as val if no separate val set
+
+nc: 43  # number of classes
+
+names:
+  0: speed_limit_20
+  1: speed_limit_30
+  2: speed_limit_50
+  3: speed_limit_60
+  4: speed_limit_70
+  5: speed_limit_80
+  6: end_of_speed_limit_80
+  7: speed_limit_100
+  8: speed_limit_120
+  9: no_overtaking
+  10: no_overtaking_trucks
+  11: priority_road
+  12: yield
+  13: stop
+  14: no_entry
+  15: no_trucks
+  16: no_entry_both_directions
+  17: caution
+  18: dangerous_curve_left
+  19: dangerous_curve_right
+  20: double_curve
+  21: bump
+  22: slippery
+  23: road_narrows
+  24: construction
+  25: traffic_signal
+  26: pedestrian_crossing
+  27: children
+  28: bicycles
+  29: snow
+  30: animals
+  31: end_all_restrictions
+  32: turn_right
+  33: turn_left
+  34: go_straight
+  35: go_straight_or_right
+  36: go_straight_or_left
+  37: keep_right
+  38: keep_left
+  39: roundabout
+  40: end_overtaking
+  41: end_overtaking_trucks
+  42: other
